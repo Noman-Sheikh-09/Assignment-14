@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Logo-navbar{
+    margin-left: 80px;
+    float: left;
+    padding: 30px;
+
+    
+}
+nav{
+    float: right;
+    margin-right: 120px;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.btn-1-navbar{
+    width: 108px;
+    height: 40px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2289FF;
+border: 1px solid #2289FF;
+box-sizing: border-box;
+border-radius: 6px;
+
+}
+.btn-2-navbar{
+    width: 108px;
+    height: 40px;
+margin: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    background: #2289FF;
+box-shadow: 0px 8px 30px rgba(70, 146, 234, 0.18);
+border-radius: 6px;
+
+}
+
+.home{
+    width: 43px;
+height: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+
+}
+.about{
+    width: 64px;
+height: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+
+}
+.feature{
+    width: 62px;
+height: 19px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+}
+.contact{
+    width: 56px;
+height: 19px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+}
+.logo-heading{
+    width: 111px;
+height: 35px;
+
+}
+.header-nav{
+    height: 100px;
+}

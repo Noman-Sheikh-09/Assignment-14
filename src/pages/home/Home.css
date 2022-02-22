@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-bg-img{
+    background-image: url(../../assets/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 646px;
+}
+.header-heading{
+    /* Heading/1 */
+
+font-family:'work sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+margin-top: 239px;
+align-items: center;
+/* margin-left: 112px; */
+
+/* Neutral/800 */
+
+color: #292E3D;
+}
+.featured-project{
+    background: #3559C7;
+align-items:flex-end;
+margin-left: 25px;
+position: absolute;
+width: 416px;
+height: 150px;
+right: 0px;
+bottom: 40px;
+
+background: #3559C7;
+border-radius: 2px 2px 0px 0px;
+}
+.header-blue-heading{
+   
+    font-family:' Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.header-blue-heading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
