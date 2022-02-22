@@ -1,135 +1,56 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+    font-family: 'work sans';
 }
-.Logo-navbar{
-    margin-left: 80px;
-    float: left;
-    padding: 30px;
+.logo-navbar{
+    width: 38px;
+    height: 47.5px;
+}
 
-    
+.logo-part{
+display: flex;
 }
 nav{
-    float: right;
-    margin-right: 120px;
-}
-nav ul{
-    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
 }
 nav ul li{
-    text-decoration: none;
-    font-size: 20px;
-    list-style: none;
     display: inline-block;
-    padding: 20px;
-
-
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-
-
-}
-.btn-1-navbar{
-    width: 108px;
-    height: 40px;
-    font-family: Roboto;
+    padding: 10px 10px;
+    font-family: Work Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+font-size: 18px;
+line-height: 21px;
+/* align-items: center; */
 
-text-align: center;
+/* Neutral/900 */
 
-color: #2289FF;
-border: 1px solid #2289FF;
-box-sizing: border-box;
-border-radius: 6px;
+color: #14171F;
 
-}
-.btn-2-navbar{
-    width: 108px;
-    height: 40px;
-margin: 18px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
-    background: #2289FF;
-box-shadow: 0px 8px 30px rgba(70, 146, 234, 0.18);
-border-radius: 6px;
-
-}
-
-.home{
-    width: 43px;
-height: 19px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #0F2B4A;
-
-}
-.about{
-    width: 64px;
-height: 19px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #0F2B4A;
-
-}
-.feature{
-    width: 62px;
-height: 19px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #0F2B4A;
-}
-.contact{
-    width: 56px;
-height: 19px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #0F2B4A;
 }
 .logo-heading{
-    width: 111px;
-height: 35px;
-
+    /* font-family:' Work Sans'; */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 14px;
+    /* align-items: center; */
+    /* Primary */
+    
+    color: #2947A9;
+    justify-content: center;
+    
 }
-.header-nav{
-    height: 100px;
+@media screen and (max-width: 768px){
+   
 }

@@ -4,22 +4,20 @@ import './navbarStyle.css'
 export default function Navbar() {
   return (
     <div>
-    <header className='header-nav'>
-     <div className='logo-side'>
-               <img src='./assets/Logo.png' className='Logo-navbar' />
-           </div>
-           <nav>
-               <ul>
-                   <li><a href='#' className='home'>Home</a></li>
-                   <li><a href='#' className='about'>About us</a></li>
-                   <li><a href='#' className='feature'>Projects</a></li>
-                   <li><a href='#' className='feature'>Services</a></li>
-                   <li><a href='#' className='contact'>Contact</a></li>
-               </ul>
-              
-           </nav>
-        
-           </header> 
+    <nav>
+      <div className='logo-part'>
+        <img src="./assets/logo.png" alt=""  className='logo-navbar'/>
+        <h1 className='logo-heading'>The Box</h1>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Projects</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+     
+    </nav>
         </div>
   )
 }

@@ -27,20 +27,19 @@ color: #292E3D;
 }
 .featured-project{
     background: #3559C7;
-align-items:flex-end;
-margin-left: 25px;
-position: absolute;
 width: 416px;
 height: 150px;
-right: 0px;
-bottom: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 10px 10px;
 
-background: #3559C7;
+
+
 border-radius: 2px 2px 0px 0px;
 }
 .header-blue-heading{
-   
-    font-family:' Work Sans';
+    font-family: 'Work Sans';
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -50,14 +49,9 @@ text-align: center;
 /* Neutral/White */
 
 color: #FFFFFF;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
 }
-.header-blue-heading{
-    font-family: 'Work Sans';
+.header-blue-para{
+    font-family:'Work Sans';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -68,12 +62,4 @@ text-align: center;
 
 color: #FFFFFF;
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
 }
-

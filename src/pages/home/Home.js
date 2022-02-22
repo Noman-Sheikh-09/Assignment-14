@@ -16,7 +16,7 @@ export default function Home() {
 <div className="col-md-3"></div>
 <div className="col-md-3 featured-project">
 <h5 className="header-blue-heading">Featured project</h5>
-<p className="header-blue-heading">The National University of Architecture</p>
+<p className="header-blue-para">The National University of Architecture</p>
 
 
 </div>
