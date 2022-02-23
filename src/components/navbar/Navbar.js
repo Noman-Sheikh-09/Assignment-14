@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav>
       <div className='logo-part'>
         <img src="./assets/logo.png" alt=""  className='logo-navbar'/>
-        <h1 className='logo-heading'>The Box</h1>
+        <h1 className='logo-heading'>TheBox</h1>
         </div>
         <ul>
           <li>Home</li>

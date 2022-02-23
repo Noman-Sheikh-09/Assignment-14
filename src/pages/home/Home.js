@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../../components/navbar/Navbar";
+import Card from "../../components/card/Card";
 export default function Home() {
   return (
     <div>
@@ -21,6 +22,26 @@ export default function Home() {
             <p className="header-blue-para">
               The National University of Architecture
             </p>
+            <div className="header-icons">
+              <input type="back" value="Back" className="back-icon" />
+              <input type="next" value="Next" className="next-icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <h3 className="heading-reput">Our Reputation</h3>
+        </div>
+        <div className="row cards-row">
+          <div className="col-md-4 one">
+            <Card />
+          </div>
+          <div className="col-md-4 two">
+            <Card />
+          </div>
+          <div className="col-md-4 three">
+            <Card />
           </div>
         </div>
       </div>
