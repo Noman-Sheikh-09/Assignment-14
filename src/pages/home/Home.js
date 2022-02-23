@@ -5,6 +5,7 @@ import Card from "../../components/card/Card";
 import ButtonOne from "../../components/button/buttonOne/ButtonOne";
 import ServiceCard from "../../components/serviceCard/ServiceCard";
 import BlueCard from '../../components/blueCard/BlueCard'
+import AdsBanner from '../../components/adsBanner/AdsBanner'
 
 export default function Home() {
   return (
@@ -106,6 +107,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <AdsBanner />
     </div>
   );
 }
