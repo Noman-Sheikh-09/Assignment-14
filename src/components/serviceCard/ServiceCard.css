@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.service-card-white-bg {
+  width: 271px;
+  height: 181px;
+  background: #ffffff;
+  box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+ 
+}
+.white-card-img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 0px;
+ margin-top: 38px;
+ align-items: center;
+ margin-left: 115px;
+}
+
+.service-white-card-title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* Primary */
+
+color: #2947A9;
+}
+.hr-line{
+  width: 60px;
+  height: 2px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 105px;
+
+}
+
+

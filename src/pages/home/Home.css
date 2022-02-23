@@ -98,16 +98,16 @@
 }
 /* BOTTOM SECTION */
 
-.bottom-bg-part2{
-
+.bottom-bg-part2 {
   background-image: url(./unsplash.png);
   background-repeat: no-repeat;
   background-position: left;
   width: 902px;
-height: 669px;
-justify-content: flex-start;
-
-
+  height: 669px;
+  justify-content: flex-start;
+}
+.bottom-bg-part2 {
+  margin-top: 74px;
 }
 /* .blue-bg-part2{
   width: 488px;
@@ -120,44 +120,87 @@ padding-top: 73px;
 /* box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
 border-radius: 2px;
 } */
-.blue-bg-part2{
+.blue-bg-part2 {
   position: absolute;
   width: 488px;
   height: 523px;
   margin-top: 70px;
   align-items: center;
   /* Primary */
-  
-  background: #2947A9;
+
+  background: #2947a9;
   /* Shadow 1 */
-  
-  box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+
+  box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1),
+    0px 8px 8px -4px rgba(17, 24, 39, 0.04);
   border-radius: 2px;
-  
 }
-.blue-title-part2{
+.blue-title-part2 {
   /* Heading/4 */
 
-font-family:'Work Sans';
-font-style: normal;
-font-weight: bold;
-text-align: left;
-font-size: 36px;
-line-height: 42px;
-padding: 50px 0px 0px 40px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 50px 0px 0px 40px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.blue-subtitle-part2{
+.blue-subtitle-part2 {
   /* Body/medium */
 
-font-family:'Work Sans';
-font-style: normal;
-font-weight: normal;
-text-align: left;
-font-size: 20px;
-line-height: 23px;
-padding: 37px 0px 0px 40px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 37px 0px 0px 40px;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.Services-section {
+  background-color: #f6f8f7;
+  width: 100%;
+  height: 608px;
+  margin-top: 202px;
+}
+.services-heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding-top: 42px;
+
+  /* Neutral/800 */
+
+  color: #292e3d;
+}
+/* SERVICE CARD SECTION  */
+.service-card-section{
+margin-top: 36px;
+margin-left: 20px;
+}
+/* .card-one{
+  
+}
+.card-two{
+
+}
+.card-three{
+
+} */
+.ser-card{
+  margin-top: 20px;
+  margin-left: 38px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+  
+
+
 }

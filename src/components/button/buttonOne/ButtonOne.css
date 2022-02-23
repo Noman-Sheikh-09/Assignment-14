@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn-1{
+    width: 219px;
+height: 53px;
+background: #FFFFFF;
+margin: 74px 0px 60px 40px;
+/* Primary */
+
+border: 2px solid #2947A9;
+box-sizing: border-box;
+border-radius: 6px;
+
+}
+button a{
+    text-decoration: none;
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+padding: 20px 16px 20px 16px;
+/* Primary */
+
+color: #2947A9;
+}

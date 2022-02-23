@@ -2,7 +2,10 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../components/navbar/Navbar";
 import Card from "../../components/card/Card";
-import { Image } from "../../assets/unsplash.png";
+import ButtonOne from "../../components/button/buttonOne/ButtonOne";
+import ServiceCard from "../../components/serviceCard/ServiceCard";
+import BlueCard from '../../components/blueCard/BlueCard'
+
 export default function Home() {
   return (
     <div>
@@ -47,7 +50,7 @@ export default function Home() {
         </div>
       </div>
       {/* Blue Frame */}
-      <div className="container bottom-bg-part2">
+      <div className="container bottom-bg-part2 ">
         <div className="row">
           <div className="col-md-7"></div>
           <div className="col-md-5 ">
@@ -63,7 +66,43 @@ export default function Home() {
                 those seeking quality, innovation and reliability when building
                 in the U.S.
               </p>
+              <ButtonOne />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid Services-section">
+        <div className="row">
+          <div className="col-md-5"></div>
+          <div className="col-md-2">
+            <h5 className="services-heading">Services</h5>
+          </div>
+          <div className="col-md-5"></div>
+        </div>
+        <div className="container ser-card">
+        <div className="row ">
+          <div className="col-md-4 card-one">
+            <ServiceCard />
+          </div>
+          <div className="col-md-4 card-two">
+           <BlueCard />
+          </div>
+          <div className="col-md-4 card-three">
+            <ServiceCard />
+          </div>
+        </div>
+        </div>
+        <div className="container ser-card">
+        <div className="row ">
+          <div className="col-md-4 card-four">
+          <BlueCard />
+          </div>
+          <div className="col-md-4 card-five">
+            <ServiceCard />
+          </div>
+          <div className="col-md-4 card-six">
+          <BlueCard />
+          </div>
           </div>
         </div>
       </div>
