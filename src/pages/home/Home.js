@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../components/navbar/Navbar";
 import Card from "../../components/card/Card";
+import { Image } from "../../assets/unsplash.png";
 export default function Home() {
   return (
     <div>
@@ -42,6 +43,27 @@ export default function Home() {
           </div>
           <div className="col-md-4 three">
             <Card />
+          </div>
+        </div>
+      </div>
+      {/* Blue Frame */}
+      <div className="container bottom-bg-part2">
+        <div className="row">
+          <div className="col-md-7"></div>
+          <div className="col-md-5 ">
+            <div className="blue-bg-part2">
+              <h6 className="blue-title-part2">About Us</h6>
+              <p className="blue-subtitle-part2">
+                For more than 30 years we have been delivering world-class
+                construction and we've built many lasting relationships along
+                the way.
+                <br />
+                <br />
+                we've matured into an industry leader and trusted resource for
+                those seeking quality, innovation and reliability when building
+                in the U.S.
+              </p>
+            </div>
           </div>
         </div>
       </div>
