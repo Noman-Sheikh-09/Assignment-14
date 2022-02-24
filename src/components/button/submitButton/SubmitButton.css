@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+button{
+    Width: 271px;
+Height: 53px;
+/* Primary */
+
+background: #2947A9;
+border-radius: 2px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+justify-content: flex-start;
+/* Neutral/White */
+
+color: #FFFFFF;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 20px;
+
+
+}

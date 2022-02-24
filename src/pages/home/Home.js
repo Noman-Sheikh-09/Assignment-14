@@ -7,8 +7,9 @@ import ServiceCard from "../../components/serviceCard/ServiceCard";
 import BlueCard from "../../components/blueCard/BlueCard";
 import AdsBanner from "../../components/adsBanner/AdsBanner";
 import ProjectCard from "../../components/projectCard/ProjectCard";
-import BlackButton from '../../components/button/blackButton/BlackButton'
-
+import BlackButton from "../../components/button/blackButton/BlackButton";
+import SubmitButton from "../../components/button/submitButton/SubmitButton";
+import Footer from '../../components/footer/Footer';
 export default function Home() {
   return (
     <div>
@@ -110,6 +111,7 @@ export default function Home() {
         </div>
       </div>
       <AdsBanner />
+      {/* Projects Area  */}
       <div className="container">
         <div className="row">
           <div className="col-md-2">
@@ -127,25 +129,57 @@ export default function Home() {
             <ProjectCard />
             <br />
             <div className="align-black-btn">
-            <BlackButton />
+              <BlackButton />
             </div>
-            
           </div>
           <div className="col-md-4 black-card-row">
             <ProjectCard />
             <ProjectCard />
             <br />
-<div className="align-black-btn"><BlackButton />
-</div>
-            
+            <div className="align-black-btn">
+              <BlackButton />
+            </div>
           </div>
         </div>
       </div>
+      {/* Projects Area  */}
+      {/* Contact Form  */}
       <div className="container-fluid contact-form">
         <div className="row">
-           
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
+            <h2 className="contact-heading">What can us do for you?</h2>
+            <p className="contact-sub-heading">
+              We are ready to work on a project of any complexity, whether it’s
+              commercial or residential.
+            </p>
+          </div>
+          <div className="col-md-3"></div>
+        </div>
+        <div className="row data-row">
+          <div className="col-md-3"></div>
+          <div className="col-md-3">
+            <input type="Name" placeholder="Your Name*" className="name" />
+            <input type="Reason" placeholder="Reasons*" className="reason" />
+            <input type="massage" placeholder="Massage" className="msg" />
+            <p className="contact-note">* indicates a required field</p>
+          </div>
+          <div className="col-md-3">
+            <input type="Email" placeholder="Email*" className="email" />
+            <input type="phone" placeholder="Phone*" className="phone" />
+          </div>
+          <div className="col-md-3"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-5"></div>
+          <div className="col-md-2 submit-button">
+            <SubmitButton />
+          </div>
+          <div className="col-md-5"></div>
         </div>
       </div>
+         {/* Contact Form  */}
+         <Footer />
     </div>
   );
 }
