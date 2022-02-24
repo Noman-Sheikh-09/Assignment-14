@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.black-btn-back{
+    width: 295px;
+height: 64px;
+background: #292E3D;
+/* transform: rotate(-180deg); */
+
+/* Body/default */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+padding: 5px 10px;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+
+}

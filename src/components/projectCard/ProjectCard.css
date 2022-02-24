@@ -1,0 +1,34 @@
+.project-card{
+    width: 384px;
+height: 331px;
+margin-top: 32px;
+background: #2947A9;
+}
+/* .project-card-bg{
+    background: #2947A9;
+} */
+.project-card-title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+padding-top: 12px;
+padding-left: 12px;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+
+}
+.project-card-subtitle{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+padding: 12px 0px 12px 12px;
+/* Neutral/White */
+
+color: #FFFFFF;
+}

@@ -204,3 +204,55 @@ margin-left: 20px;
 
 
 }
+/* PROJECT CARD CSS  */
+.project-heading{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 88px;
+  /* Neutral/800 */
+  
+  color: #292E3D;
+}
+.project-subheading{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+margin-top: 40px;
+/* Primary */
+
+color: #2947A9;
+
+}
+.project-name{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+list-style: none;
+padding: 20px 0px 0px 20px;
+
+/* Neutral/200 */
+
+color: #C2C7D6;
+
+}
+.black-card-row{
+  margin-top: 170px;
+}
+/* FORM START FROM HERE  */
+.contact-form{
+  position: absolute;
+  height: 632px;
+  
+/* Neutral/50 */
+
+background: #F6F8F7;
+}

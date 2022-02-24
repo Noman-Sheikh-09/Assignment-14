@@ -4,8 +4,10 @@ import Navbar from "../../components/navbar/Navbar";
 import Card from "../../components/card/Card";
 import ButtonOne from "../../components/button/buttonOne/ButtonOne";
 import ServiceCard from "../../components/serviceCard/ServiceCard";
-import BlueCard from '../../components/blueCard/BlueCard'
-import AdsBanner from '../../components/adsBanner/AdsBanner'
+import BlueCard from "../../components/blueCard/BlueCard";
+import AdsBanner from "../../components/adsBanner/AdsBanner";
+import ProjectCard from "../../components/projectCard/ProjectCard";
+import BlackButton from '../../components/button/blackButton/BlackButton'
 
 export default function Home() {
   return (
@@ -81,33 +83,69 @@ export default function Home() {
           <div className="col-md-5"></div>
         </div>
         <div className="container ser-card">
-        <div className="row ">
-          <div className="col-md-4 card-one">
-            <ServiceCard />
+          <div className="row ">
+            <div className="col-md-4 card-one">
+              <ServiceCard />
+            </div>
+            <div className="col-md-4 card-two">
+              <BlueCard />
+            </div>
+            <div className="col-md-4 card-three">
+              <ServiceCard />
+            </div>
           </div>
-          <div className="col-md-4 card-two">
-           <BlueCard />
-          </div>
-          <div className="col-md-4 card-three">
-            <ServiceCard />
-          </div>
-        </div>
         </div>
         <div className="container ser-card">
-        <div className="row ">
-          <div className="col-md-4 card-four">
-          <BlueCard />
-          </div>
-          <div className="col-md-4 card-five">
-            <ServiceCard />
-          </div>
-          <div className="col-md-4 card-six">
-          <BlueCard />
-          </div>
+          <div className="row ">
+            <div className="col-md-4 card-four">
+              <BlueCard />
+            </div>
+            <div className="col-md-4 card-five">
+              <ServiceCard />
+            </div>
+            <div className="col-md-4 card-six">
+              <BlueCard />
+            </div>
           </div>
         </div>
       </div>
       <AdsBanner />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2">
+            <h5 className="project-heading">Projects</h5>
+            <h4 className="project-subheading">I All</h4>
+            <ul>
+              <li className="project-name">Commercial</li>
+              <li className="project-name">Residential</li>
+              <li className="project-name">Other</li>
+            </ul>
+          </div>
+          <div className="col-md-2"></div>
+          <div className="col-md-4 black-card-row">
+            <ProjectCard />
+            <ProjectCard />
+            <br />
+            <div className="align-black-btn">
+            <BlackButton />
+            </div>
+            
+          </div>
+          <div className="col-md-4 black-card-row">
+            <ProjectCard />
+            <ProjectCard />
+            <br />
+<div className="align-black-btn"><BlackButton />
+</div>
+            
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid contact-form">
+        <div className="row">
+           
+        </div>
+      </div>
     </div>
   );
 }
