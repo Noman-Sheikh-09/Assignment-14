@@ -110,6 +110,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Experiecne Cards part  */}
+
+
+
+
+
+      {/* Experiecne Cards part  */}
       <AdsBanner />
       {/* Projects Area  */}
       <div className="container">
@@ -177,9 +184,19 @@ export default function Home() {
           </div>
           <div className="col-md-5"></div>
         </div>
+        <Footer />
       </div>
          {/* Contact Form  */}
-         <Footer />
+       {/* Last Blue Footer  */}
+       <div className="container-fluid blue-footer">
+         <div className="row">
+           <div className="col-md-2"></div>
+           <div className="col-md-4">
+             <p className="last-line-text">TheBox Company © 2022. All Rights Reserved</p>
+           </div>
+           <div className="col-md-6"></div>
+         </div>
+       </div>
     </div>
   );
 }

@@ -2,3 +2,68 @@
     margin: 0px;
     padding: 0px;
 }
+.footer{
+    margin-top: 85px;
+}
+.blue-text{
+    font-family:' Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+font-variant: small-caps;
+
+/* Primary */
+
+color: #2947A9;
+}
+.newsletter{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    font-variant: small-caps;
+    
+    /* Primary */
+    
+    color: #2947A9;
+}
+.your-email{
+    width: 280px;
+    height: 41px;
+    background: #FFFFFF;
+    padding: 10px 0px 10px 8px;
+/* Neutral/100 */
+
+border: 1px solid #E0E3EB;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.subBtn{
+    width: 200px;
+    height: 41px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+margin-left: -8px;
+margin-top: 40px;
+/* Neutral/White */
+
+color: #FFFFFF;
+    /* Secondary */
+
+    background-color: #F9995D;
+    border-radius: 4px;
+}
+.footer-logo{
+
+    width: 163px;
+    height: 47.5px;
+margin-top: 32px;
+}
