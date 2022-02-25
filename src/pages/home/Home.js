@@ -9,6 +9,7 @@ import AdsBanner from "../../components/adsBanner/AdsBanner";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import BlackButton from "../../components/button/blackButton/BlackButton";
 import SubmitButton from "../../components/button/submitButton/SubmitButton";
+import BlueFooter from '../../components/blueFooter/BlueFooter'
 import Footer from '../../components/footer/Footer';
 export default function Home() {
   return (
@@ -185,18 +186,13 @@ export default function Home() {
           <div className="col-md-5"></div>
         </div>
         <Footer />
+        <BlueFooter />
       </div>
          {/* Contact Form  */}
        {/* Last Blue Footer  */}
-       <div className="container-fluid blue-footer">
-         <div className="row">
-           <div className="col-md-2"></div>
-           <div className="col-md-4">
-             <p className="last-line-text">TheBox Company © 2022. All Rights Reserved</p>
-           </div>
-           <div className="col-md-6"></div>
-         </div>
-       </div>
-    </div>
+
+
+
+     </div>
   );
 }
