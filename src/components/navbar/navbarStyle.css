@@ -25,7 +25,7 @@ nav{
 nav ul li{
     display: inline-block;
     padding: 10px 10px;
-    font-family: Work Sans;
+    font-family: 'Work Sans';
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -50,6 +50,10 @@ color: #14171F;
     color: #2947A9;
     justify-content: center;
     
+}
+nav ul li a{
+    text-decoration: none;
+    color: #14171F;
 }
 @media screen and (max-width: 768px){
    

@@ -58,14 +58,20 @@
 
   color: #ffffff;
 }
-.header-icons {
-  display: flex;
-  background: #292e3d;
+/* .next-icon{
+  color: white;
+  background-color: #3559c7;
 }
+.next-icon{
+  background-color: #3559c7;
+  color: white;
+} */
+
+/* 
 .back-btn {
   background: #292e3d;
   transform: rotate(-180deg);
-}
+} */
 .heading-reput {
   font-family: "Work Sans";
   font-style: normal;
@@ -246,6 +252,9 @@ color: #C2C7D6;
 }
 .black-card-row{
   margin-top: 170px;
+  justify-content: space-between;
+  margin-left: 0px;
+
 }
 /* FORM START FROM HERE  */
 .contact-form{
@@ -425,3 +434,4 @@ color: #C40303;
   margin-left: -50px;
   margin-top: 28px;
 }
+

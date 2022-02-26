@@ -8,9 +8,11 @@ import BlueCard from "../../components/blueCard/BlueCard";
 import AdsBanner from "../../components/adsBanner/AdsBanner";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import BlackButton from "../../components/button/blackButton/BlackButton";
+import Experience from "../../components/experience/Experience";
 import SubmitButton from "../../components/button/submitButton/SubmitButton";
-import BlueFooter from '../../components/blueFooter/BlueFooter'
-import Footer from '../../components/footer/Footer';
+import BlueFooter from "../../components/blueFooter/BlueFooter";
+import Footer from "../../components/footer/Footer";
+
 export default function Home() {
   return (
     <div>
@@ -31,10 +33,10 @@ export default function Home() {
             <p className="header-blue-para">
               The National University of Architecture
             </p>
-            <div className="header-icons">
-              <input type="back" value="Back" className="back-icon" />
-              <input type="next" value="Next" className="next-icon" />
-            </div>
+            {/* <div className="header-icons">
+              <button className="back-icon"></button>
+              <button className="next-icon"> </button>
+            </div> */}
           </div>
         </div>
       </div>
@@ -111,11 +113,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Experiecne Cards part  */}
+      {/*=Experiecne Cards part  */}
 
-
-
-
+      <Experience />
 
       {/* Experiecne Cards part  */}
       <AdsBanner />
@@ -188,11 +188,8 @@ export default function Home() {
         <Footer />
         <BlueFooter />
       </div>
-         {/* Contact Form  */}
-       {/* Last Blue Footer  */}
-
-
-
-     </div>
+      {/* Contact Form  */}
+      {/* Last Blue Footer  */}
+    </div>
   );
 }

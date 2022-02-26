@@ -32,7 +32,9 @@ export default function Footer() {
               className="your-email"
             />
             <p className="blue-text">Social:</p>
-            {/* Icon will be here */}
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter-square"></i>
           </div>
           <div className="col-md-1">
             <button className="subBtn">Subscribe</button>

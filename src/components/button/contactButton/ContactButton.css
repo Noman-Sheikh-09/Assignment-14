@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contact-us {
+    width: 176px;
+height: 53px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  /* padding: 16px 39px; */
+  margin-top: 67px;
+  margin-bottom: 177px;
+  /* Neutral/White */
+
+  color: #ffffff;
+
+  /* Primary */
+
+  background: #2947a9;
+  border: 1px solid #2947a9;
+  border-radius: 2px;
+}
+/* .contact-btn-bg {
+  width: 176px;
+  height: 53px;
+
+  background: #2947a9;
+  border-radius: 2px;
+} */

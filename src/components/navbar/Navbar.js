@@ -10,11 +10,11 @@ export default function Navbar() {
         <h1 className='logo-heading'>TheBox</h1>
         </div>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Projects</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="#">Home</a> </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
      
     </nav>

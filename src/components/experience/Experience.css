@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.exp-heading{
+    
+/* Heading/2 */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+margin-top: 170px;
+/* Primary */
+
+color: #2947A9;
+}
+.exp-content{
+    width: 330px;
+height: 74px;
+/* Body/medium */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+margin-top: 40px;
+/* Neutral/600 */
+
+color: #525B7A;
+}
+.experience-content{
+    margin-left: 100px;
+}
+.troffy-card{
+    
+
+width: 280px;
+height: 155px;
+margin-top: 122px;
+
+/* Neutral/White */
+
+background: #FFFFFF;
+/* Neutral/White */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Shadow 2 */
+
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+.card84{
+/* Heading/1 */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+
+/* Neutral/800 */
+
+color: #292E3D;
+
+}
+.happy-client{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* Neutral/500 */
+    
+    color: #667299;
+}
+.notes-card{
+   
+width: 361px;
+height: 155px;
+margin-top: 221px;
+background: #FFFFFF;
+/* Neutral/White */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Shadow 2 */
+
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+
+}
+.card123{
+ /* Heading/1 */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+/* Neutral/800 */
+
+color: #292E3D;   
+}
+.project-complete{
+    
+font-family:' Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+/* Neutral/500 */
+
+color: #667299;
+
+}
+.award-card{
+   
+width: 276px;
+height: 155px;
+margin-top: 87px;
+background: #FFFFFF;
+/* Neutral/White */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Shadow 2 */
+
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+.card37{
+    /* Heading/1 */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+
+/* Neutral/800 */
+
+color: #292E3D;
+
+}
+.awards-win{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+/* Neutral/500 */
+
+color: #667299;
+}
+.year-card{
+
+width: 333px;
+height: 155px;
+margin-top: 87px;
+
+background: #FFFFFF;
+/* Neutral/White */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Shadow 2 */
+
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+.card30{
+/* Heading/1 */
+
+font-family:' Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+
+/* Neutral/800 */
+
+color: #292E3D;
+}
+.years-business{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* Neutral/500 */
+    
+    color: #667299;
+}
+.client-experience{
+    display: flex;
+}
